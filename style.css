@@ -32,3 +32,17 @@
 }
 
 /* video END */
+
+/*navbar START*/
+.navbar {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.nav {
+    color: #f1f1f1;
+}
+
+/*navbar END*/
+
+/*about START*/
+#about {}
