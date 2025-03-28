@@ -1,3 +1,7 @@
+body {
+    background-color: #F8F8F8;
+}
+
 /* video START */
 #myVideo {
     right: 0;
@@ -45,4 +49,32 @@
 /*navbar END*/
 
 /*about START*/
-#about {}
+#about {
+    /* black border with a backdrop shadow */
+    border: 4px solid black;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+}
+
+img {
+    width: 90%;
+    height: auto;
+    margin: 15px;
+}
+
+/* about END */
+
+/* career highlights START */
+.col-12 {
+    background-color: gray;
+    margin: 12px;
+}
+
+/* career highlights END */
+
+/* upcoming shows START */
+#shows {
+    background-color: white;
+}
+
+/* upcoming shows END */
