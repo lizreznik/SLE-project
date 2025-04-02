@@ -1,5 +1,5 @@
 body {
-    background-color: #F8F8F8;
+    background-color: #eee7e7 !important;
 }
 
 /* video START */
@@ -58,6 +58,12 @@ body {
     color: #f1f1f1;
 }
 
+.nav-image {
+    width: 20%;
+    height: auto;
+    margin: 0%;
+}
+
 /*navbar END*/
 
 /*about START*/
@@ -68,6 +74,7 @@ body {
     margin: 20px;
     font-family: "Jost", sans-serif;
     font-size: 25px;
+    background-color: white;
 }
 
 img {
@@ -80,8 +87,9 @@ img {
 
 /* career highlights START */
 .col-12 {
-    background-color: gray;
     margin: 12px;
+    margin-top: 20px;
+
 }
 
 /* career highlights END */
