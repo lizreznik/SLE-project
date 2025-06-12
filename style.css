@@ -101,6 +101,51 @@ img {
 iframe {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
+.music-section {
+    background: linear-gradient(145deg, #1e1e1e, #111);
+    color: white;
+    padding: 50px 20px;
+    border-radius: 20px;
+    max-width: 900px;
+    margin: 40px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+
+  .music-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+
+  .music-section p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    color: #ccc;
+  }
+
+  .track-embed {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .track-embed:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px #1db954;
+  }
+
+  iframe {
+    border-radius: 12px;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid #444;
+    margin: 50px auto;
+    width: auto%;
+  }
 
 #picture img {
     width: 100%;
